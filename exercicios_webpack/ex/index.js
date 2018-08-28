@@ -7,7 +7,7 @@ function clone(objeto){
     return { ...objeto } 
 }
 
-const novoProduto = clone(produto)
-novoProduto.nome = 'Caneta Bic Azul'
+const newProduto = clone(produto)
+newProduto.nome = 'Caneta Bic Azul'
 
-console.log(produto, novoProduto)
+console.log(produto, newProduto)
